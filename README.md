@@ -23,3 +23,13 @@ Signal, Discord, Firefox, Thunderbird, KeePassX,
 and SyncThing at once.
 
 To close them all at once, type openEM.sh --off 
+===================================================================
+# Ninjstall -- Ninja Installation Script (v. 1.0) --
+ 4 # by Alain Maubert (https://github.com/AlainMaubert)
+ 5 # November 30th, 2019.
+ 6 #
+ 7 # Tested in Fedora.
+ 8 #
+ 9 # This is a script that asks a user what program to install.
+10 # It will do it silently and will automatically answer
+11 # yes for all questions.
