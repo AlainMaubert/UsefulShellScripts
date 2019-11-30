@@ -4,7 +4,7 @@
 # (https://github.com/AlainMaubert)
 # November 30th, 2019.
 #
-# Tested in Fedora.
+# Tested in Fedora
 #
 # A script that creates a new file that has already the shebang line
 # and chmod 777 enabled to be executable. If the file already exists,
