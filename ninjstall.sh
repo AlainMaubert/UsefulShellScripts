@@ -11,6 +11,15 @@
 # yes for all questions.
 
 
+ if [ "$1" == "--search" ]; then
+echo $'\n'"Please type the name of the program to search."
+
+read -n 20 check
+
+sudo dnf search $check | less
+
+fi
+
 echo $'\n'"Please type the name of the program to install."
 
 read -n 20 name
@@ -20,6 +29,5 @@ echo "Please wait while "$name" is getting installed."
 rpm -qa | grep -qw "$name" || sudo dnf install -yyq "$name"
 
 echo $name" has been installed."
-
 
 exit
