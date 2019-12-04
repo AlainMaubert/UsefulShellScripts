@@ -33,11 +33,11 @@ Ninjstall -- Ninja Installation Script (v. 1.0) --
 by Alain Maubert (https://github.com/AlainMaubert)
 November 30th, 2019.
 
-Tested in Fedora.
+Tested in Fedora and Debian.
 
 This is a script that asks a user what program to install.
 It will do it silently and will automatically answer
-yes for all questions.
+yes for all questions. The user can also search for a program,
 
 ====================================================================
 
